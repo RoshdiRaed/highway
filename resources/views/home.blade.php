@@ -243,6 +243,7 @@
             </div>
         </div>
 
+        
         <!-- Contact Section -->
         <div id="contact" class="w-full min-h-screen flex items-center justify-center bg-[#000000]"
             data-aos-delay="400">
