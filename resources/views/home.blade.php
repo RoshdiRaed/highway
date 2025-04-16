@@ -144,24 +144,36 @@
 
 
     <!-- About Section -->
-    <section id="about" class="py-12 px-4 md:px-8 md:py-16">
-        <div class="max-w-7xl mx-auto">
-            <h2 class="text-2xl md:text-4xl font-bold mb-6 md:mb-8" data-aos="fade-up" data-aos-duration="1000">About
-                Roshdi</h2>
-            <p class="text-gray-500 mb-6 text-sm md:text-base max-w-lg" data-aos="fade-up" data-aos-duration="1200">
+    <section id="about">
+        <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+            <h2 class="mb-8 text-3xl font-bold md:text-5xl md:mb-10" data-aos="fade-up" data-aos-duration="1000">
+                About Roshdi
+            </h2>
+            <p class="mb-8 max-w-lg text-sm text-gray-500 sm:text-base md:mb-16" data-aos="fade-up"
+                data-aos-duration="1200">
                 I'm a dedicated Laravel developer with a passion for creating impactful web solutions and empowering
-                young professionals through technology.
+                young
+                professionals through technology.
             </p>
-            <div class="grid gap-6 md:grid-cols-2 md:gap-8">
+            <div class="grid gap-8 md:grid-cols-2 md:gap-10">
                 <img src="{{ asset('about-me.png') }}" alt="Roshdi at work"
-                    class="w-full h-auto rounded-2xl object-cover" data-aos="zoom-in" data-aos-duration="1400" />
-                <div class="border border-gray-300 p-6 rounded-2xl" data-aos="fade-left" data-aos-duration="1600">
-                    <h2 class="text-2xl md:text-3xl font-bold mb-4" data-aos="fade-up">My Mission</h2>
-                    <p class="text-gray-500 text-sm md:text-base" data-aos="fade-up" data-aos-delay="200">
+                    class="inline-block h-full w-full rounded-2xl object-cover" data-aos="zoom-in"
+                    data-aos-duration="1400" />
+
+                <div class="flex flex-col gap-5 rounded-2xl border border-solid border-black p-10 sm:p-12"
+                    data-aos="fade-left" data-aos-duration="1600">
+                    <h2 class="text-3xl font-bold md:text-5xl" data-aos="fade-up">
+                        My Mission
+                    </h2>
+                    <p class="text-sm text-gray-500 sm:text-base" data-aos="fade-up" data-aos-delay="200">
                         My mission is to empower young graduates and individuals with limited qualifications by building
                         platforms that provide practical, task-based learning opportunities. I aim to create scalable,
                         user-friendly applications that solve real-world problems while fostering collaboration and
                         growth.
+                        <br /><br />
+                        With a strong foundation in Laravel and web development, I focus on delivering innovative
+                        solutions
+                        that enhance accessibility and engagement for all users.
                     </p>
                 </div>
             </div>
